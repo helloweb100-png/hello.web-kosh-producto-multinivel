@@ -18,7 +18,7 @@
   window.__kosh = true;
 
   const CONFIG = {
-    phone: '527442617599',   // WhatsApp con lada país, sin + ni espacios
+    phone: '5216674587730',   // WhatsApp con lada país, sin + ni espacios
     minLoaderMs: 1800        // tiempo mínimo de la pantalla de carga
   };
 

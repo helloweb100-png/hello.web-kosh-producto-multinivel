@@ -293,7 +293,10 @@ mark { background: none; color: inherit; }
 .brand__word {
   font: 800 1.25rem/1 var(--f-display); letter-spacing: .14em; font-variation-settings: "wdth" 80;
   background: var(--chrome-grad); -webkit-background-clip: text; background-clip: text; color: transparent;
+  white-space: nowrap;
 }
+@media (max-width: 400px) { .brand__word { font-size: .94rem; letter-spacing: .08em; } }
+@media (max-width: 359px) { .nav .brand__mark { display: none; } }
 .nav__links { display: none; margin-inline: auto; gap: 2px; }
 .nav__links a {
   padding: 10px 14px; border-radius: var(--r-pill);
